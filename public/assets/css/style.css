@@ -1,0 +1,93 @@
+/* Siobhanny.com
+/**
+/**
+/** Custom styling to modify base Bootstrap CSS.
+/**
+/**
+*/
+
+/* Base Styles */
+body{
+	background-color: #fff;
+}
+
+a{
+	color: #46A2A2;
+}
+
+h1, h3, h4, h5{
+	font-family: 'Lobster Two', cursive;
+	color: #666;
+}
+
+h4{
+	color: #46A2A2;
+}
+
+h5{
+	font-size: 20px;
+}
+
+.glyphicon a:hover{
+	border-bottom: 1px dotted #333;
+}
+
+img.portfolio{
+	padding: 10px;
+	background-color: #C7E3E3;
+}
+
+a:hover img.portfolio{
+	padding: 10px;
+	background-color: #90C7C7;
+}
+
+blockquote{
+	background-color: #C7E3E3;
+	font-style: italic;
+	border-left: 5px solid #46A2A2;
+}
+
+/* Navigation */
+.navbar-wrapper{
+	background-color: #46A2A2;
+	min-height: 100px;
+	/*background-image: none;
+	border: none;*/
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #ccc;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	background-color: #C7E3E3;
+}
+
+.navbar-default .navbar-toggle{
+	background-color: #ddd;
+}
+
+/* Footer */
+
+footer{
+	background-color: #90C7C7;
+	padding: 1em;
+}
+
+p.resume{
+	margin-top: 20px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.glyphicon{
+	color: #46A2A2;
+}
+
+.siteInfo{
+	color: #C7E3E3;
+}
